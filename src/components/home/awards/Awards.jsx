@@ -2,6 +2,7 @@ import React from "react";
 import Heading from "../../common/Heading";
 import { awards } from "../../data/Data";
 import "./awards.css";
+import "font-awesome/css/font-awesome.min.css";
 
 const Awards = () => {
   return (
