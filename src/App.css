@@ -77,7 +77,7 @@ label {
 }
 h4 {
   font-weight: 500;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 .shadow {
   box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
@@ -87,7 +87,7 @@ h4 {
 }
 .grid3 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr) ;
   grid-gap: 30px;
 }
 img {
@@ -155,9 +155,12 @@ img {
   margin-bottom: 80px;
 }
 @media screen and (max-width: 800px) {
-  .grid4,
+  
   .grid3,
   .grid5 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid4 {
     grid-template-columns: repeat(2, 1fr);
   }
   .heading {
